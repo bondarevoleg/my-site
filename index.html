@@ -4,52 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Портфолио</title>
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <title>Главная</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="main-header">
+  <header class="header">
     <div class="container header-wrap">
+      <nav class="main-nav">
+        <ul class="list-nav">
+          <li class="list-nav__item">
+            <a href="index.html" class="list-nav__link">Портфолио</a>
+          </li>
+          <li class="list-nav__item">
+            <a href="about.html" class="list-nav__link">Обо мне</a>
+          </li>
+          <li class="list-nav__item">
+            <a href="" class="list-nav__link">Услуги</a>
+          </li>
+          <li class="list-nav__item">
+            <a href="" class="list-nav__link">Блог</a>
+          </li>
+          <li class="list-nav__item">
+            <a href="" class="list-nav__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
       <div class="user">
         <img src="img/user.png" alt="фото пользователя" class="user__pic">
       </div>
-      <div class="contacts">
-        <a href="tel:89536043722" class="link">
-          <div class="link__tel">89536043722</div>
-          <div class="link__desk-text">мои контакты</div>
-        </a>
-      </div>
     </div>
   </header>
-  <main class="main">
-    <div class="container main-wrap">
-    <h1 class="main__title">Портфолио</h1>
-    <p class="main__text">Я начинающий html-верстальщик,я верстаю сайты:</p>
-    <ul class="list">
-      <li class="list__item">адаптивно.</li>
-      <li class="list__item">кроссбраузерно.</li>
-      <li class="list__item">кроссплатформенно.</li>
-    </ul>
-    </div>
-  </main>
-  <footer class="main__footer">
+  <main class="main-content">
     <div class="container">
+      <section class="portfolio">
+        <div class="pf-block">
+          <h1 class="pf-block__title">Моё портфолио</h1>
+        </div>
+        <section class="features">
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features__subtitle">html</h3>
+              <img src="img/icons/html.png" alt="" class="features__pic">
+              <p class="features__text-desc">кроссбраузерно</p>
+              <p class="features__text-desc">кроссплатформенно</p>
+              <p class="features__text-desc">адаптивно</p>
+              <a href="#" class="features__link">перейти</a>
+            </li>
+            <li class="features-item">
+              <h3 class="features__subtitle">css</h3>
+              <img src="img/icons/css.png" alt="" class="features__pic">
+              <p class="features__text-desc">flex-вёрстка</p>
+              <p class="features__text-desc">grid-вёрстка</p>
+              <p class="features__text-desc">bootstrap-вёрстка</p>
+              <a href="#" class="features__link">перейти</a>
+            </li>
+            <li class="features-item">
+              <h3 class="features__subtitle">js</h3>
+              <img src="img/icons/js.png" alt="" class="features__pic">
+              <p class="features__text-desc">Нативный JavaScript</p>
+              <p class="features__text-desc">React.js и компоненты</p>
+              <p class="features__text-desc">Node.js</p>              
+              <a href="#" class="features__link">перейти</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+   </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-wrap">
       <div class="copyright">
-        <p class="copyright__text">
-          Все права защищены.
-        </p>
-        <p class="copyright__text">
-          Автор:Олег Бондарев
-        </p>
+        <p class="copyright__text">Все права защищены</p>
+        <p class="copyright__text">Автор: Олег Бондарев.</p>
       </div>
       <div class="socials">
         <ul class="socials-list">
-          <li class="socials__item">
-            <a href="https://vk.com/id251006581" class="socials__link socials__vk"></a>
+          <li class="socials-item">
+            <a href="" class="socials__link socials__vk"></a>
           </li>
-          <li class="socials__item">
-              <a href="https://www.facebook.com/profile.php?id=100009806863982" class="socials__link socials__fb"></a>
+          <li class="socials-item">
+            <a href="#" class="socials__link socials__fb"></a>
           </li>
         </ul>
       </div>
